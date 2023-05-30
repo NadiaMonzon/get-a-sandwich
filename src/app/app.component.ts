@@ -8,3 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'get-a-sandwich';
 }
+
+
+// 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 apikey de ChatGPT sasito
