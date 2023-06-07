@@ -6,6 +6,7 @@
 
     &_main-title {
         font-size: 32px;
+        font-weight: 500;
     }
 
     &_search-input {
@@ -23,6 +24,10 @@
         border: solid #ccc 2px;
         border-radius: 6px;
         font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        min-width: fit-content;
 
         &:hover {
             transition: all 0.3s;
@@ -43,6 +48,7 @@
         &-group {
             display: flex;
             gap: 1rem;
+            overflow: auto;
         }
     }
 
