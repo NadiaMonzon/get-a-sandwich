@@ -1,0 +1,26 @@
+.menu {
+    display: flex;
+    background-color: orangered;
+    width: 100%;
+    justify-content: space-between;
+}
+.hambur {
+    width: 30px;
+    height: 30px;
+}
+.options {
+    display: none;
+}
+
+@media screen and (min-width: 720px) {
+    .menu {
+      background-color: lightgreen;
+    }
+    .hambur {
+        display: none;
+    }
+    .options {
+        display: flex;
+        gap: 10px;
+    }
+  }
