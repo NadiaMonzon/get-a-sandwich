@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './pages/login/login.component';
 import { SearchComponent } from './pages/search/search.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SandwichDetailComponent } from './pages/sandwich-detail/sandwich-detail.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     LoginComponent,
     SearchComponent,
     NavbarComponent,
+    SandwichDetailComponent,
   ],
   imports: [
     BrowserModule,
