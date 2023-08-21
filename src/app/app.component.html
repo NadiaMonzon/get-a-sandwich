@@ -5,11 +5,10 @@
 </style>
 
 <div class="content" role="main">
-  
-  <app-login></app-login>
-  <app-search></app-search>
-  <app-home></app-home>
-  <app-sandwich-detail></app-sandwich-detail>
+
+<nav>
+  <a [routerLink]="['login']">Login</a>
+  </nav>  
 </div>
 
 <router-outlet></router-outlet>
